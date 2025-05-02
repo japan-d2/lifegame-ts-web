@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  gap: 2px;
+}
+
+.cell {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.cell.alive {
+  background-color: #000;
+}
+
+.cell.dead {
+  background-color: #fff;
+}
+
+.controls {
+  display: flex;
+  margin-top: 8px;
+  gap: 6px;
+}
+
+button {
+  padding: 2px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  min-width: 64px;
+}
